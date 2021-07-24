@@ -1,0 +1,42 @@
+package com.company;
+
+import com.sun.jdi.Value;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+
+        try
+        {
+            int array[]=new int [5];
+            array[5]=45/0;
+        }
+        catch (ArithmeticException ae)
+        {
+            System.out.println("Sorry the number cannot be divided by zero");
+        }
+        catch (ArrayIndexOutOfBoundsException ai)
+        {
+            System.out.println("Sorry the size of the array is less");
+        }
+
+
+
+
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
